@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b0c66bb44670343bb752f7c296ca1b, type: 3}
+  m_Name: Luger
+  m_EditorClassIdentifier: 
+  name: Luger
+  isAutomatic: 0
+  roundsPerMinute: 240
+  reloadTime: 2
+  shotsInClip: 8
+  hitForce: 10
+  damage: 30
+  range: 50
+  prefab: {fileID: 100096, guid: bd5da21ecf63cc64cbce1192dc124fd7, type: 3}
+  shootSound: {fileID: 8300000, guid: f4fd72fe279342f49b9520b24f902a24, type: 3}
+  reloadSound: {fileID: 8300000, guid: 09a5b816b9eb8db4697d5880c221ace9, type: 3}
+  equipSound: {fileID: 0}
+  animatorController: {fileID: 9100000, guid: 91c9e9877afc93640b285b418a4cba9c, type: 2}
